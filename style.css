@@ -1,0 +1,98 @@
+:root{
+--mainBG: hsl(217, 54%, 11%);
+--cardBG : hsl(216, 50%, 16%);
+--line : hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+body {
+    height: 100vh;
+    background-color: var(--mainBG);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.card{
+    position: relative;
+    width: 20em;
+    height: 35rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 25px 30px;
+    background-color: var(--cardBG);
+}
+
+.card_img img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    position: relative;
+}
+.equi{
+    transition: 0.3s;
+}
+.equi h2{
+    font-family: 'outfit';
+    font-weight: 600;
+    color: var(--White);
+}
+.equi p{
+    font-family: 'outfit';
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--Softblue);
+}
+.tab table{
+    border-bottom: .1px solid var(--Softblue);
+    padding-bottom: 20px;
+}
+
+td.cyan{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'outfit';
+    color: var(--Cyan);
+}
+td.softblue{
+    font-size: 18px;
+    font-family: 'outfit';
+    color: var(--Softblue);
+    padding-left: 7rem ;
+}
+
+.avter{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+.avter img{
+    margin-top: 7px;
+    height: 35px;
+    border: 1px solid var(--White);
+    border-radius: 85px;
+}
+.avter p{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'outfit';
+    padding-left: 25px;
+    color: var(--Softblue);
+    margin-bottom: 3px;
+}
+.avter span{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'outfit';
+    color: var(--White);
+}
+.attribution{
+    display: flex;
+    position: absolute;
+    margin-top: 40rem;
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 300;
+    color: var(--White);
+}
